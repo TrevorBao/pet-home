@@ -7,13 +7,14 @@ import { ThemeProvider } from "@aws-amplify/ui-react";
 import { Amplify } from "aws-amplify";
 import amplifyconfig from "./amplifyconfiguration.json";
 import "@aws-amplify/ui-react/styles.css";
-import studioTheme from "./ui-components/studioTheme";
+// import studioTheme from "./ui-components/studioTheme";
 
 Amplify.configure(amplifyconfig);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <ThemeProvider theme={studioTheme}>
+    {/* <ThemeProvider theme={studioTheme}> */}
+    <ThemeProvider>
       <ChakraProvider>
         <App />
       </ChakraProvider>
