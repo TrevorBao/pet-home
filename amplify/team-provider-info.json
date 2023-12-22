@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pethome-dev-205418-authRole",
+      "UnauthRoleArn": "arn:aws:iam::449816355157:role/amplify-pethome-dev-205418-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::449816355157:role/amplify-pethome-dev-205418-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-pethome-dev-205418-deployment",
+      "UnauthRoleName": "amplify-pethome-dev-205418-unauthRole",
+      "StackName": "amplify-pethome-dev-205418",
+      "StackId": "arn:aws:cloudformation:eu-west-2:449816355157:stack/amplify-pethome-dev-205418/117a0e80-a000-11ee-9db0-0a2306724eaa",
+      "AmplifyAppId": "d1d6l43bjnm0se"
+    }
+  }
+}
